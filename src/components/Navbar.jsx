@@ -9,7 +9,7 @@ const Navbar = () => {
     const [isHovered2, setIsHovered2] = useState(false);
 
     const searchIconStyle = {
-        width: "32px",
+        // width: "32px",
         marginTop: "-3px",
         cursor: "pointer",
         filter: isHovered ? "brightness(0) invert(1)" : "none",
@@ -26,14 +26,14 @@ const Navbar = () => {
                     <img src={Logo} alt="razer-logo" width={35} height={35} />
                 </a>
                 <div className="mr-[50px]">
-                    <ul className="flex pl-[90px]">
+                    <ul className="flex pl-[80px]">
                         {navLinks.map((nav, index) => (
                             <li
                                 key={nav.id}
-                                className={`text-[rgb(136,136,136)] text-[15px] font-['razer-light'] hover:text-white ${
+                                className={`text-[rgb(136,136,136)] text-[14px] font-['razer-light'] hover:text-white ${
                                     index === navLinks.length - 1
                                         ? "mr-0"
-                                        : "mr-[50px]"
+                                        : "mr-[65px]"
                                 }`}
                             >
                                 <a href={`#${nav.id}`}>{nav.title}</a>

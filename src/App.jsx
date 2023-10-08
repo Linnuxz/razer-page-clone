@@ -1,12 +1,13 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import Hero from "./Components/Hero";
 
 const App = () => {
     return (
         <div>
             <div>
                 <Navbar />
-                {/* <Hero /> */}
+                <Hero />
             </div>
         </div>
     );

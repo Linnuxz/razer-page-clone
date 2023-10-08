@@ -2,6 +2,18 @@
     font-family: "razer-light";
     src: url("../src/fonts/razerf5-light_0.ttf");
 }
+@font-face {
+    font-family: "storia-medium";
+    src: url("../src/fonts/StoriaSans-Medium.ttf");
+}
+@font-face {
+    font-family: "storia-bold";
+    src: url("../src/fonts/StoriaSans-Bold.ttf");
+}
+@font-face {
+    font-family: "storiar";
+    src: url("../src/fonts/StoriaSans-Regular.ttf");
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
