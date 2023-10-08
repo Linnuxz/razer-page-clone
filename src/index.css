@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "razer-light";
+    src: url("../src/fonts/razerf5-light_0.ttf");
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
