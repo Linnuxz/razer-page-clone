@@ -77,9 +77,6 @@ const Hero = () => {
                 <div className="md:w-full 2xl:w-[1725px] bg-black mx-auto">
                     <div className="grid grid-cols-2 mx-auto">
                         {smallDivs.map((div, index) => (
-                            // <div key={div.id} style={{backgroundImage: `url(${div.backgroundUrl})`}} className="p-4">
-                            //     <h2 className="text-white">{div.h2}</h2>
-                            // </div>
                             <div
                                 key={div.id}
                                 className={`h-[500px] pt-[60px] text-white bg-cover bg-center flex flex-col items-center border-b-[9px] border-[rgba(34,34,34,255)] ${
