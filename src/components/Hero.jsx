@@ -8,7 +8,7 @@ const Hero = () => {
                 <h2 className="text-center mx-7">
                     Join RazerStore Rewards to unlock bonus Razer Silver,
                     reduced minimum spend for free shipping, exclusive perks and
-                    more. <span>Join Now &gt;</span>
+                    more. <span><a href="https://www.razer.com/store/rewards?utm_source=razer-onsite-promobar&utm_medium=banner&utm_campaign=2023_RS_TXN_ALL_WW-_-RazerStore-Rewards-_-BR&utm_content=promobar" className="hover:underline">Join Now &gt;</a></span>
                 </h2>
             </div>
             {/* bg-[rgba(34,34,34,255)] */}
